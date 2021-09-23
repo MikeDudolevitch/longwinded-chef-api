@@ -5,7 +5,7 @@ class RecipesController < ApplicationController
   def index
     @recipes = Recipe.all
 
-    render json: @recipes
+    render json: @recipes, only: [:name, :blog, :instructions, :id]
   end
 
   # GET /recipes/1
