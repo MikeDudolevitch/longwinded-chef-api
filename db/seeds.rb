@@ -10,4 +10,6 @@ recipe1 = Recipe.create(name: "American Chop Suey", blog: "blahblahblahblah", in
 
 recipe2 = Recipe.create(name: "Saag Paneer with Feta", blog: "blahblahsdkjldjoglds", instructions: "do some stuff")
 
+recipe3 = Recipe.create(name: "Garlic Fried Rice", blog: "soanywayblahblahblah", instructions: "do a bunch of stuff")
+
 
